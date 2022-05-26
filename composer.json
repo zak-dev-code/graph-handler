@@ -1,0 +1,32 @@
+{
+    "name": "zak-dev-code/graph-handler",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "graph",
+        "breadth first search"
+    ],
+    "authors": [
+        {
+            "name": "Ilya Zakirov",
+            "email": "zackirov.ilya@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5",
+        "phpstan/phpstan": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZakDevCode\\GraphHandler\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    }
+}
