@@ -1,6 +1,7 @@
 {
     "name": "zak-dev-code/graph-handler",
     "type": "library",
+    "description": "undirected-graph-handler",
     "license": "MIT",
     "keywords": [
         "graph",
